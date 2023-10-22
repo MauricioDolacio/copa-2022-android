@@ -5,7 +5,6 @@ import me.dio.copa.catar.domain.model.Match
 import me.dio.copa.catar.domain.repositories.MatchesRepository
 import javax.inject.Inject
 
-//Mauricio Dolacio
 class GetMatchesUseCase @Inject constructor(
     private val repository: MatchesRepository
 ) {
